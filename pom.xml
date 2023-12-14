@@ -87,7 +87,7 @@
         <h2.version>2.2.220</h2.version>
         <hibernate-orm.plugin.version>6.2.7.Final</hibernate-orm.plugin.version>
         <hibernate.c3p0.version>6.2.7.Final</hibernate.c3p0.version>
-        <infinispan.version>14.0.17.Final</infinispan.version>
+        <infinispan.version>15.0.0.Dev03</infinispan.version>
         <infinispan.protostream.processor.version>4.6.5.Final</infinispan.protostream.processor.version>
 
         <!--JAKARTA-->
@@ -196,7 +196,7 @@
         <surefire.memory.metaspace>96m</surefire.memory.metaspace>
         <surefire.memory.metaspace.max>512m</surefire.memory.metaspace.max>
         <surefire.memory.settings>-Xms${surefire.memory.Xms} -Xmx${surefire.memory.Xmx} -XX:MetaspaceSize=${surefire.memory.metaspace} -XX:MaxMetaspaceSize=${surefire.memory.metaspace.max}</surefire.memory.settings>
-        <surefire.system.args></surefire.system.args>
+        <surefire.system.args/>
 
         <!-- Tomcat versions -->
         <tomcat8.version>8.5.76</tomcat8.version>
@@ -266,7 +266,7 @@
         </developer>
     </developers>
 
-    <contributors></contributors>
+    <contributors/>
 
     <modules>
         <module>boms</module>
