@@ -107,7 +107,7 @@
         <resteasy-legacy.version>4.7.7.Final</resteasy-legacy.version>
         <resteasy.version>6.2.4.Final</resteasy.version>
         <resteasy.undertow.version>${resteasy.version}</resteasy.undertow.version>
-        <owasp.html.sanitizer.version>20220608.1</owasp.html.sanitizer.version>
+        <owasp.html.sanitizer.version>20260101.1</owasp.html.sanitizer.version>
         <slf4j.version>2.0.6</slf4j.version>
         <sun.istack.version>3.0.10</sun.istack.version>
         <sun.saaj.version>2.0.1</sun.saaj.version>
@@ -196,7 +196,7 @@
         <surefire.memory.metaspace>96m</surefire.memory.metaspace>
         <surefire.memory.metaspace.max>512m</surefire.memory.metaspace.max>
         <surefire.memory.settings>-Xms${surefire.memory.Xms} -Xmx${surefire.memory.Xmx} -XX:MetaspaceSize=${surefire.memory.metaspace} -XX:MaxMetaspaceSize=${surefire.memory.metaspace.max}</surefire.memory.settings>
-        <surefire.system.args></surefire.system.args>
+        <surefire.system.args/>
 
         <!-- Tomcat versions -->
         <tomcat8.version>8.5.76</tomcat8.version>
@@ -266,7 +266,7 @@
         </developer>
     </developers>
 
-    <contributors></contributors>
+    <contributors/>
 
     <modules>
         <module>boms</module>
