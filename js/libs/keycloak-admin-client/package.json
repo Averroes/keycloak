@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "camelize-ts": "^3.0.0",
-    "lodash-es": "^4.17.21",
+    "lodash-es": "^4.17.23",
     "url-join": "^5.0.0",
     "url-template": "^3.1.0"
   },
